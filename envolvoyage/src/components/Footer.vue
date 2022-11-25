@@ -82,8 +82,6 @@ export default {
     image: String,
 
   }
-
-
 }
 </script>
 

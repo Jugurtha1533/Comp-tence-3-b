@@ -48,10 +48,7 @@
  <script>
  export default {
    name: 'Features',
-   props: {
-    image:string,
- 
-   }
+  
  }
  </script>
  

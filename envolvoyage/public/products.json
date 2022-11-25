@@ -1,0 +1,59 @@
+{
+    "time": {
+      "updated": "Dec 4, 2020 11:36:00 UTC",
+      "updatedISO": "2020-12-04T11:36:00+00:00",
+      "updateduk": "Dec 4, 2020 at 11:36 GMT"
+    },
+    "disclaimer": "This data was produced from destination",
+    "chartName": "description",
+    "products": [
+      {
+        "id": 1,
+        "image": "images/Paris.png",
+        "name": "Paris",
+        "description": "Paris, ville mythique, est une véritable source d’inspiration à l’international pour beaucoup d’artistes, photographes, musiciens.",
+        "prix": "$249.99",
+        "bouton": "book now"
+      },
+      {
+        "id": 2,
+        "image": "images/Dubai.png",
+        "name": "Dubai",
+        "description": "Dubai n'a pas besoin d'être présentée. Avec ses gratte-ciel à l'architecture ultra-moderne, cet endroit est la quintessence de l'ingénierie. Connue pour son style de vie ultra-riche et luxuieux.",
+        "prix": "$299.99",
+        "bouton": "book now"
+      },
+      {
+        "id": 3,
+        "image": "images/London.png",
+        "name": "London",
+        "description": "Découvrez l’histoire royale de la capitale à Buckingham Palace. Examinez de près les joyaux de la couronne exposés à la Tower of London.",
+        "prix": "$239.99",
+        "bouton": "book now"
+      },
+      {
+        "id": 4,
+        "image": "images/Petra.png",
+        "name": "Petra",
+        "description": "Petra, en Jordanie, est certainement l’un des plus beaux sites dans le monde à ne pas rater.",
+        "prix": "$189.99",
+        "bouton": "book now"
+      },
+      {
+        "id": 5,
+        "image": "images/Mexico.png",
+        "name": "mexico",
+        "description": "Vous y trouverez nos meilleurs conseils et bons plans, les 30 lieux d’intérêts incontournables et des idées d’activités à faire en famille.",
+        "prix": "$199.99",
+        "bouton": "book now"
+      },
+      {
+        "id": 6,
+        "image": "images/Istanbul.png",
+        "name": "Istanbul",
+        "description": "une composition magique de deux continents, deux Mondes, l’Orient et l’Occident.",
+        "prix": "$159.99",
+        "bouton": "book now"
+      }
+    ]
+  }

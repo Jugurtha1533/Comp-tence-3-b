@@ -1,13 +1,10 @@
 <template>
   <header id="nav">
-    <!--<router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-  </div>-->
+   
     <nav class=" navbar navbar-dark bg-primary">
       <div class="container-fluid">
-        <!-- <a class="navbar-brand" href="#"><span>Envol 
-voyage</span><img src="@/assets/logo-envole voyage.
-png" width="50"></a> -->
+      <!-- <a class="navbar-brand" href="#"><span>Envolvoyage</span><img src="@/assets/logo-envole voyage.png" width="50"></a> -->
+
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-c
           aria-expanded="false" aria-label="Toggle 
   navigation">
@@ -18,7 +15,7 @@ png" width="50"></a> -->
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">
           <router-link class="nav-link" to="/">Accueil</router-link></a>
-</li>
+           </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
 

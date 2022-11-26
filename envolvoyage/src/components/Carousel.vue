@@ -39,17 +39,17 @@
           {
             id: 1,
             titre: 'First slide label',
-            image: 'Maldives22.jpg',
+            image: 'maldives-14.jpg',
           },
           {
             id: 2,
             titre: 'Second slide label',
-            image: 'Maldives23.jpg',
+            image: 'maldives-14.jpg',
           },
           {
             id: 3,
             titre: 'Third slide label',
-            image: 'Maldives24.jpg',
+            image: 'maldives-14.jpg',
           },
         ],
       }

@@ -3,7 +3,7 @@
    
     <nav class=" navbar navbar-dark bg-primary">
       <div class="container-fluid">
-      <!-- <a class="navbar-brand" href="#"><span>Envolvoyage</span><img src="@/assets/logo-envole voyage.png" width="50"></a> -->
+      <a class="navbar-brand" href="#"><span>Envolvoyage</span><img src="@/assets/logo-envole-voyage.png" width="50"></a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-c
           aria-expanded="false" aria-label="Toggle 

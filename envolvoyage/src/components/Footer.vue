@@ -3,9 +3,15 @@
           <div class="container">
             <div class="row row-30">
               <div class="col-md-4 col-xl-5">
-                <div class="pr-xl-4"><a class="brand" href="index.html"><img class="brand-logo-light"
-                      src="images/logo-envole voyage.png" alt="" width="140" height="37"
-                      srcset="images/logo-envole voyage.png2x"></a>
+                <div class="pr-xl-4">
+                  <a class="brand" href="index.html">
+                    <img
+                      class="brand-logo-light"
+                      src="images/logo-envole-voyage.png" 
+                      alt="" 
+                      width="140" 
+                      height="37"/>
+                  </a>
                   <p>Chez Envol Voyage nous savons que
                     voyager est une aventure humaine mais
                     également

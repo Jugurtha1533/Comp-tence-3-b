@@ -7,7 +7,7 @@
                   <a class="brand" href="index.html">
                     <img
                       class="brand-logo-light"
-                      src="images/logo-envole-voyage.png" 
+                      src="@/assets/logo-envole-voyage.png" 
                       alt="" 
                       width="140" 
                       height="37"/>
@@ -34,7 +34,7 @@
                 <h5>Contacts</h5>
                 <dl class="contact-list">
                   <dt>Address:</dt>
-                  <dd>2 rue Baise Pascal, 75002, Paris</dd>
+                  <dd>2 rue Blaise Pascal, 75002, Paris</dd>
                 </dl>
                 <dl class="contact-list">
                   <dt>email:</dt>
@@ -44,7 +44,7 @@
                 <dl class="contact-list">
                   <dt>phones:</dt>
                   <dd><a href="tel:#">01 33 20 34 44</a>
-                    <span>or</span> <a href="tel:#">01 95
+                    &nbsp;<span>or</span>&nbsp; <a href="tel:#">01 95
                       21 36
                       45</a>
                   </dd>

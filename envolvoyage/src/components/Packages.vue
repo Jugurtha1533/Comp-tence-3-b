@@ -1,12 +1,22 @@
 <template>
     <section class="packages" id="packages">
-      <h1 class="heading"> Our <span>packages</span> </h1>
+      <h1 class="heading"> Nos <span>packages</span> </h1>
       <div class="box-container">
-        <div class="row">       
-          <Slide v-for="(product, index) in products" :key="index" :id="product.id" :name="product.name" :image="product.
-          image" :boutton="product.boutton" />    
+        <div class="row align-items-start m-0">       
+          <PecturePackage v-for="(product, index) in products" 
+          :key="index"
+          :id="product.id"
+          :name="product.name"
+          :image="product.image"
+          :description="product.description"
+          :prix="product.prix"
+          :bouton="product.bouton" />    
         </div>
+        <br>
+        <br>
+        <br>
       </div>
+      <hr class="featurette-divider" />
     </section>
   </template>
   <script>
@@ -29,6 +39,7 @@
         .then(response => {
           // JSON responses are automatically parsed.
           this.products = response.data.products
+          console.log(this.products)
         })
         .catch(e => {
           this.errors.push(e)
@@ -48,6 +59,7 @@
     padding-bottom: 2rem;
     color: (--text-color-1);
     font-size: 4rem;
+    margin-top:10px;
   }
   .heading span {
     position: relative;

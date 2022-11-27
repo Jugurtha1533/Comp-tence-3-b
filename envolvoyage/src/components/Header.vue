@@ -3,7 +3,9 @@
    
     <nav class=" navbar navbar-dark bg-primary">
       <div class="container-fluid">
-      <a class="navbar-brand" href="#"><span>Envolvoyage</span><img src="@/assets/logo-envole-voyage.png" width="50"></a>
+      <a class="navbar-brand" v-on:click.prevent.stop="goToHomepage" >
+        <span>Envolvoyage</span><img src="@/assets/logo-envole-voyage.png" width="50">
+      </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-c
           aria-expanded="false" aria-label="Toggle 
@@ -14,18 +16,20 @@
           <ul class="navbar-nav me-auto mb-2 mb-md-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">
-          <router-link class="nav-link" to="/">Accueil</router-link></a>
+                <router-link class="nav-link" to="/">Accueil</router-link>
+              </a>
            </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
 
-              <router-link class="nav-link" to="/Distinations">Distinations</router-link></a>
+              <router-link class="nav-link" to="/destinations">Destinations</router-link></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Circuits</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
+                <router-link class="nav-link" to="/contact">Contact</router-link></a>
             </li>
           </ul>
           <form class="d-flex">
@@ -45,6 +49,12 @@ export default {
     titre: String,
     image: String,
 
+  },
+  methods: {
+    goToHomepage: function() {
+      console.log('getToHomepage')
+      this.$router.push('/');
+    }
   }
 
 }

@@ -1,5 +1,5 @@
 <template>
-    <div class="accuiel">
+    <div class="accueil">
       
       <Carousel />
       <Detail />
@@ -16,7 +16,7 @@
   
   
   export default {
-    name: 'Accuiel',
+    name: 'Accueil',
     components: {
       Carousel,
       Detail,

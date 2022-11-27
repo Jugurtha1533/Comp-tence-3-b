@@ -1,8 +1,15 @@
 <template>
-    <div class="col-lg-4">
-      <Etapes v-for="(etape,index) in etapes" :key="index" :id="etape.id" :titre="etape.titre" :image="etape.
-      image" :description="etape.description" :button="etape.button"/> 
+  <div class="row">
+    <div class="row align-items-start m-0">
+      <Etapes v-for="(etape,index) in etapes" 
+      :key="index"
+      :id="etape.id"
+      :titre="etape.titre"
+      :image="etape.image"
+      :description="etape.description"
+      :button="etape.button"/> 
     </div>
+  </div>
     <!-- /.col-lg-4 -->
   </template>
   
@@ -24,14 +31,14 @@
             titre: 'Planifier',
             image: 'steps-icon-1.png',
             description: 'Confiez-nous vos rêves d\'évasion : en famille ou entre amis, nous trouverons la formule qui  comblera vos attentes.',
-            button: 'View details & raquo',
+            button: 'View details',
           },
           {
             id: 2,
             titre: 'Organiser',
             image: 'steps-icon-2.png',
             description: 'Nous nous chargeons d\'assurer votre sécurité et d.',
-            button: 'View details & raquo' ,
+            button: 'View details' ,
          
           },
           {
@@ -39,7 +46,7 @@
             titre: 'Voyager',
             image: 'steps-icon-3.png',
             description: 'Nous nous chargeons d\'assurer votre sécurité et de.',
-            button: 'View details & raquo',
+            button: 'View details',
           },
         ],
       }

@@ -8,15 +8,19 @@
           aria-label="Slide 3"></button>
       </div>
       <div class="carousel-inner">   
-        <Slide v-for="(slide,index) in slides" :key="index" :id="slide.id" :titre="slide.titre" :image="slide.
-        image" />
+        <Slide v-for="(slide,index) in slides"
+          :key="index"
+          :id="slide.id"
+          :titre="slide.titre"
+          :image="slide.image"
+           />
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="carousel-control-next-icon"   aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
@@ -39,17 +43,17 @@
           {
             id: 1,
             titre: 'First slide label',
-            image: 'maldives-14.jpg',
+            image: 'slide-1.jpg',
           },
           {
             id: 2,
             titre: 'Second slide label',
-            image: 'maldives-14.jpg',
+            image: 'slide-2.jpg',
           },
           {
             id: 3,
             titre: 'Third slide label',
-            image: 'maldives-14.jpg',
+            image: 'slide-3.jpg',
           },
         ],
       }

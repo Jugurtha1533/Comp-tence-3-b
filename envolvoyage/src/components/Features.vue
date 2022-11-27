@@ -4,20 +4,22 @@
     <hr class="featurette-divider" />
 
     <div class="row featurette">
-      <div class="col-md-7">
+      <div class="col-md-7 order-md-2">
         <h2 class="featurette-heading">Meilleures destinations.
           <span class="text-mut blow your mind"></span>
         </h2>
         <p class=" lead">Trouver la perfection de voyage avec
           le professionnalisme d'experts.</p>
       </div>
-    </div>
-    <div class="col-md-5">
-      <div class="ratio ratio-16x9">
-        <iframe src="@/assets/production ID_3784238.mp4" title="YouTube 
-                       video" allowfullscreen></iframe>
+      <div class="col-md-5 order-md-1">
+        <div class="ratio ratio-16x9">
+          <video class="video" controls src="@/assets/prod1.mp4" autoplay loop muted>
+          </video>
+
+        </div>
       </div>
     </div>
+
     <hr class="featurette-divider">
     <div class="row featurette">
       <div class="col-md-7 order-md-2">

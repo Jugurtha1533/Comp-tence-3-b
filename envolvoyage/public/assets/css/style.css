@@ -278,3 +278,8 @@ ol {
     color: (--text-color-2);
     line-height: 1.7;
 }
+
+.center-div-content {
+    display: inline-block;
+    text-align: center;
+}

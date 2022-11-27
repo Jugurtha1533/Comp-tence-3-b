@@ -1,13 +1,17 @@
 <template>
-    <div class="col-lg-4 box" >
+    <div class="col-4 package" >
       <div class="image">
         <img class="pecture" :src="`${image}`" alt="">
         <h3> <i class="fas fa-map-marker-alt"></i> {{name}} </h3>
       </div>
       <div class="content">
         <div class="price"><span>{{ prix }}</span></div>
-        <P>{{ description }}</P>
-        <a class="btn back-now">{{ bouton }}</a>
+        <div class="description">
+          <P>{{ description }}</P>
+        </div>
+        <div class="col border-end  d-flex justify-content-center align-items-center">
+          <button class="btn btn-success">{{bouton}}</button>
+        </div>
       </div>
     </div>
   </template>
@@ -19,10 +23,18 @@
       id: Number,
       name: String,
       image: String,
-      prix:Number,
-      button:String,
+      prix:String,
+      bouton:String,
+      description:String,
     }
   }
   </script>
   
-  
+<style scopped>
+.description {
+  height: 100px;
+}
+.package{
+  margin-bottom: 10px;
+}
+</style>

@@ -1,9 +1,9 @@
 <template>
-    <div class="carousel-item active" data-bs-interval="10000">
+    <div class="carousel-item"  v-bind:class="{ active: id === 1 }" data-bs-interval="10000">
       <img :src="require(`@/assets/${image}`)" class="d-block w-100 imgcarosel" alt="colier" width="" height="500" />
-      <div class="carousel-caption d-none d-md-block    ">
+      <div class="carousel-caption d-none d-md-block">
     
-        <h5> <a href="#"><b>{{ titre }}</b></a> </h5>
+        <h5 > <a href="#"><b>{{ titre }}</b></a> </h5>
     
       </div>
     </div>
